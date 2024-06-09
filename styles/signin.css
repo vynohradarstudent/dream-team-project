@@ -1,0 +1,60 @@
+body {
+    background-color: #151515;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Sing{
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 35vw;
+    height: 90vh;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+
+    background-color: #252525;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.photo{
+
+    width: 4vw;
+    height: 10vh;
+    margin-bottom: 35px;
+}
+
+.input{
+    height: 30px;
+    width: 65%;
+    background-color: #252525;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 3px;
+    color: white;
+}
+
+.btn{
+    margin-top: 35px;
+    height: 50px;
+    width: 67%;
+    border: 1px solid #0059fa;
+    border-radius: 5px;
+    background-color: #0059fa;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+.logo{
+    color: white;
+}
