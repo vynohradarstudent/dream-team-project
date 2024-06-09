@@ -34,3 +34,8 @@ img{
     width: 90px;
     height: 90px;
 }
+.bon{
+display: flex;
+    flex-direction: column;
+    
+}
