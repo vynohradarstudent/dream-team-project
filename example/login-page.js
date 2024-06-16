@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $("#login").on("click", async function () {
+    $(".continue").on("click", async function () {
         let email = $("#email").val();
         let password = $("#password").val();
 
