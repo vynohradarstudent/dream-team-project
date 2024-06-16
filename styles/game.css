@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.con{
+    height: 100px;
+    align-items: center;
+    align-content: center;
+    font-size: 25px;
+
+}
+
+.vas{
+    font-size: 30px;
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none
+;
+}
+button{
+    background-color: white;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+
+
+.fort{
+    font-size: 100px;
+    color: white;
+    flex: 70px;
+    margin: 50px;
+}
+
+.bio{
+    width: 400px;
+    color: white;
+    margin-left: 100px;
+}
+
+
+.click{
+    display: flex;
+    justify-content: end;
+    float: right;
+}
+.bon{
+display: flex;
+    flex-direction: column;
+    
+}
+
+button {
+    width: 300px;
+    height: 70px;
+    background-color: gold;
+    color: white;
+
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    align-content:center ;
+    padding-right: 140px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 2%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 100px;
+    position: absolute;
+    right: 150px;
+    bottom: 100px;
+}
+
+iframe {
+    margin-left: 100px;
+}
+
+.game-card{
+    color: white;
+    width: 100px;
+
+}
