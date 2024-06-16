@@ -41,6 +41,63 @@ display: flex;
 }
 .game-card{
     color: white;
+padding-bottom: 150px;
 
+}
 
+.bottom{
+    margin-top: 100px;
+    width: 100vw;
+
+    background-color: rgb(40, 40, 40);
+    display: grid;
+
+    align-items: center;
+}
+
+.logo2{
+align-self: center;
+    width: 4vw;
+    height: 10vh;
+    margin: 35px;
+}
+
+.line{
+    align-self: center;
+    width: 90vw;
+    color: rgb(217, 217, 217);
+}
+
+.text2{
+    color: rgb(217, 217, 217);
+    padding-left: 90px;
+    margin: 10px;
+    width: 45vw;
+    align-self: flex-start;
+}
+
+.progect{
+    align-self: flex-start;
+    padding-left: 90px;
+    display: flex;flex-direction: column;
+}
+
+.Name2{
+    color: rgb(217, 217, 217);
+}
+
+.Name1_1{
+
+    display: flex;
+
+}
+.Name1_2{
+    margin: 20px;
+    color: rgb(217, 217, 217);
+    display: flex;
+    flex-direction: column;
+}
+
+.it{
+    margin: 4px;
 }
