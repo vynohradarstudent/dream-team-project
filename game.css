@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+}
+.fort{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 75px;
+}
