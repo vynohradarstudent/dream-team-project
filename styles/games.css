@@ -3,55 +3,275 @@
     margin: 0;
 }
 body{
-    background-color: #181818;
-}
-.con{
-    height: 100px;
-    align-items: center;
-    align-content: center;
-    font-size: 25px;
-
+    background-color: #171717;
 }
 
-.vas{
-    font-size: 30px;
-    background-color: #212431;
-    width: 100vw;
+.cart{
+ 
+    background-color: #252326;
+    border: 0px;
+    border-radius: 7%;
+    color: rgb(112, 112, 112);
+}
+
+
+.login{
+    z-index: 3;
+    display : flex;
+    position: absolute;
+    left: 60%;
+    flex-direction: column;
+    border: 0px;
+    background-color: #373438;
+    padding: 10px;
+   height: 20%;
+    width: 30%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#logo{
+    width:3vw;
+    height:7vh;
+    margin-left: 40px;
+}
+
+#username{
+    margin-top: 7px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-self: center;
+    color: rgb(151, 151, 151);
+    font: 1.1rem "Fira Sans", sans-serif;
 }
 
-a{
+#hr1{
+    color:rgb(255, 255, 255);
+    width: 40px;
+    transform: rotate(90deg);
+    margin: 0px 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#carouselExampleAutoplaying{
+    width: 65%;
+    margin: auto;
+}
+
+.body{
+    width: 100%;
+background-color: #171717;
+}
+
+.user-info{
+
+    display: none;
+
+ 
+}
+
+.end_header{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 30px;
+}
+
+
+.item1{
     color: white;
-    text-decoration: none
-;
+    text-decoration: none;
+    margin-right: 25px;
+    font: 1.2rem "Fira Sans", sans-serif;
+    transform: scale(0.8, 1.6);
+    font-weight: 800;
 }
-button{
-    background-color: aqua;
+
+.item2{
+  
+    margin-right: 25px;
+    font: 1.1rem "Fira Sans", sans-serif;
+   padding: 5px 12px;
+   background-color: #252326;
+   border: 0px;
+   border-radius: 7%;
+   color: rgb(112, 112, 112);
+   text-decoration: none;
 }
-img{
-    width: 90px;
-    height: 90px;
+
+
+.admin_function{
+    width: 200px;
+    margin: 0px;
+}
+
+#login2{
+    margin-left: 25vw;
+}
+  
+
+.download{
+    margin: auto;
+   height: 60%;
+    margin-left: 40px;
+     font-size: 17px;
+     padding: 5px 10px;
+     border: 0px;
+     border-radius: 12%;
+     background-color: rgb(46, 165, 255);
+     transition: all 0.2s;
+ }
+
+ .download:hover{
+    background-color: rgb(101, 185, 249);
+    transition: all 0.2s;
+ }
+
+
+.item2:hover{
+   background-color: rgb(87, 87, 87) ;
+   transition: all 0.5s;
+color: rgb(255, 255, 255);
+
+
+}
+
+#logout-btn{
+    margin-top: 7px;
+    display: flex;
+    align-self: center;
+    border: 0px;
+    font-size: 17px;
+     padding: 5px 10px;
+     border-radius: 12%;
+}
+
+.vas {
+   
+   
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+
+    height: 10vh;
+    font-size: 30px;
+    background-color: #252326;
+    width: 100%;
+}
+
+
+
+header ul{
+    display: flex;
+    align-items: center;
+
+}
+
+header li{
+    list-style: none;
+    margin:  0 20px;
+}
+
+#login{
+   
+        margin: 9px auto ; 
+        height: 30px;
+        width: 94%;
+        border: 1px solid #0059fa;
+        border-radius: 3px;
+        background-color: #0059fa;
+        padding: 6px;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    
+}
+
+
+.buy{
+    padding: 2px 9px;
+    margin-top: 2px;
+    background-color: rgb(255, 200, 0);
+    border:0px ;
+    border-radius: 2px;
+}
+
+.icon{
+    width: 220px;
+     height:290px;
+     border-radius: 7px;
 }
 .bon{
+    padding: 30px 75px;
+    height: 550px;
 display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.bon2{
+    padding: 30px 75px;
+display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 550px;
     
 }
 .game-card{
+    margin: 25px;
     color: white;
 padding-bottom: 150px;
+transition: all 0.5s;
+}
 
+.game-card:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+   
+}
+
+.name{
+    font: 1.4rem "Fira Sans", sans-serif;
+    width: 220px;
+    font-weight: 500;
+    margin: 7px 0px;
+}
+
+.price{
+    font: 0.9rem "Fira Sans", sans-serif;
+    margin: 7px 0px;
+}
+
+.input{
+
+    height: 30px;
+    width: 90%;
+    background-color: #373438;
+   border: 1px solid white;
+    padding: 5px;
+    margin: 7px auto ;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
 }
 
 .bottom{
     margin-top: 100px;
-    width: 100vw;
+    width: 100%;
 
     background-color: rgb(40, 40, 40);
     display: grid;
 
+    align-items: center;
+}
+
+.bottom2{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -85,6 +305,8 @@ align-self: center;
 .Name2{
     color: rgb(217, 217, 217);
 }
+
+
 
 .Name1_1{
 
