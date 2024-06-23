@@ -91,12 +91,25 @@ async function refreshToken(refreshToken) {
 }
 
 async function getAllGames() {
-    return await fetch(
+    const response = await fetch(
         GET_ALL_GAMES_URL,
         {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
             }
+        })
+    return await response.json();
+}
+
+async function getGameById(id) {
+    const response = await fetch(
+        GET_GAME_BY_ID_URL+ id,
+        {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
         });
+    return await response.json();
 }

@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(async function () {
 
     $("#login").on("click", async function () {
         let email = $("#email").val();
@@ -9,9 +9,34 @@ $(document).ready(function () {
             password: password
         });
 
-        localStorage.setItem("accessToken", token.accessToken);
-        localStorage.setItem("refreshToken", token.refreshToken);
+        if (!token.error) {
+            localStorage.setItem("accessToken", token.accessToken);
+            localStorage.setItem("refreshToken", token.refreshToken);
 
-        window.location.reload();
+            window.location.reload();
+        } else {
+            alert("Incorrect email or password")
+        }
+
+
     });
+
+
+    let games = await getAllGames();
+
+    games.forEach(e => {
+
+        $(".bon2").append(`
+
+    <div class="game-card">
+        <img class="icon" src="${e.titleImageUrl}">
+        <h2  class="name"> ${e.title} </h2>
+        <p class="price"> USD ${e.price} </p>
+        <a href="../views/game.html?id=${e.id}"> <button> Buy </button> </a>
+    </div>
+    
+    
+    `)
+    })
+
 });

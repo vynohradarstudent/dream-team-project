@@ -201,6 +201,7 @@ header li{
 }
 
 .icon{
+    object-fit: cover;
     width: 220px;
      height:290px;
      border-radius: 7px;
@@ -215,7 +216,8 @@ display: flex;
 }
 
 .bon2{
-    padding: 30px 75px;
+    margin-top: 20px;
+    padding: 15px auto;
 display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 550px;
