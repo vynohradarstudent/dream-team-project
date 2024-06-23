@@ -7,6 +7,7 @@
 }
 
 
+
 .main{
     display: flex;
     flex-direction: row;
@@ -123,7 +124,7 @@ display: flex;
 
 .window{
     width: 50%;
-    height: 30%;
+    height: auto;
     background-color: #252326;
     border-radius: 3%;
 display: flex;
@@ -137,6 +138,14 @@ padding: 15px;
     color: white;
     margin: 2px;
     margin-left: 15px;
+}
+
+.releaseDate{
+        margin: 2px;
+        margin-left: 14px;
+        font-size:  19px ;
+        font-weight: 400;
+        color: white;
 }
 
 .window_price{
@@ -161,14 +170,16 @@ margin-left: 14px;
    display: flex;
    align-items: center;
    justify-content: center;
-   margin: auto;
+    margin: 50px auto;
+
 }
 
-iframe {
+#carouselExampleAutoplaying {
     margin-left: 100px;
 }
 
 .logotype{
+    margin: 60px 20px;
     width: 70%;
 }
 

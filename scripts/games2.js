@@ -32,7 +32,7 @@ $(document).ready(async function () {
         <img class="icon" src="${e.titleImageUrl}">
         <h2  class="name"> ${e.title} </h2>
         <p class="price"> USD ${e.price} </p>
-        <a href="../views/game.html?id=${e.id}"> <button> Buy </button> </a>
+        <a href="../views/game.html?id=${e.id}"> <button class="buy"> Buy </button> </a>
     </div>
     
     
